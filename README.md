@@ -40,6 +40,7 @@ EV-Market-Performance-Insights/
 │   ├── train.csv
 │   └── test.csv
 ├── EV_Market_PerformanceFinal.twbx
+|__ requirements.txt
 └── README.md
 
 

@@ -36,7 +36,7 @@ EV-Market-Performance-Insights/
 │
 ├── app.py
 ├── index.html
-├── dataset/
+├── Datasets/
 │   ├── train.csv
 │   └── test.csv
 ├── EV_Market_PerformanceFinal.twbx

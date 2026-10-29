@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Market Performance & Insights</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f7fa;
+    color: #183047;
+    line-height: 1.7;
+}
+
+.hero {
+    background: linear-gradient(120deg, #15354e, #17677c);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.tag {
+    display: inline-block;
+    border: 1px solid #a6c3d1;
+    border-radius: 40px;
+    padding: 8px 22px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.2;
+    max-width: 900px;
+    margin: 0 auto 25px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: auto;
+    color: #d8e9f0;
+    font-size: 19px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+}
+
+.overview {
+    text-align: center;
+    padding: 65px 0 35px;
+}
+
+.overview h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.overview p {
+    color: #6d8395;
+    font-size: 18px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    padding: 25px 0 50px;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 25px;
+    border: 1px solid #dce8ed;
+    box-shadow: 0 12px 30px #17384d0c;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px #17384d18;
+}
+
+.card .emoji {
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.card h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #708497;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #299b8d;
+    padding: 13px 23px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #207e74;
+}
+
+.story-btn {
+    background: #176b83;
+}
+
+.story-btn:hover {
+    background: #105266;
+}
+
+.insights {
+    background: #e5f4f5;
+    border-left: 6px solid #299b8d;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.insights h2 {
+    margin-bottom: 10px;
+}
+
+.insights p {
+    color: #60798a;
+}
+
+footer {
+    background: #15354e;
+    color: #d8e9f0;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 650px) {
+    .hero {
+        padding: 55px 20px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .overview {
+        padding-top: 45px;
+    }
+
+    .overview h2 {
+        font-size: 30px;
+    }
+
+    .overview p {
+        font-size: 17px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .card h3 {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="tag">DATA ANALYTICS PROJECT</div>
+
+    <h1>Electric Vehicle Market<br>
+    Performance &amp; Insights</h1>
+
+    <p>
+        Explore electric vehicle sales, market trends,
+        manufacturer performance, vehicle categories,
+        and battery technology through interactive
+        Tableau visualizations.
+    </p>
+</header>
+
+<main class="container">
+
+    <!-- Project Overview -->
+    <section class="overview">
+        <h2>Project Overview</h2>
+
+        <p>
+            This project analyzes electric vehicle market
+            data to highlight sales patterns and compare
+            performance across regions, manufacturers,
+            categories, and battery technologies.
+        </p>
+    </section>
+
+    <!-- Dashboard and Story Cards -->
+    <section class="cards">
+
+        <div class="card">
+            <div class="emoji">📊</div>
+
+            <h3>Interactive Dashboard</h3>
+
+            <p>
+                View the key performance indicators and
+                interactive charts in the Tableau dashboard.
+            </p>
+
+            <a class="btn"
+               href="https://public.tableau.com/views/EV_Market_dashboard/EVMARKETDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+               target="_blank"
+               rel="noopener noreferrer">
+                Open Dashboard ↗
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="emoji">📖</div>
+
+            <h3>Project Story &amp; Insights</h3>
+
+            <p>
+                Explore the story points and the main
+                insights identified from the EV market analysis.
+            </p>
+
+            <a class="btn story-btn"
+               href="https://public.tableau.com/views/EV_Market_Story/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read Story ↗
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Additional Insights -->
+    <section class="insights">
+        <h2>⚡ What This Project Explores</h2>
+
+        <p>
+            Sales trends by model year, manufacturer
+            performance, EV category distribution, regional
+            sales, customer ratings and battery technology
+            market share.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>Electric Vehicle Market Performance &amp; Insights</p>
+    <p>Data Analytics Project | Tableau Public &amp; Flask</p>
+</footer>
+
+</body>
+</html>

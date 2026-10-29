@@ -43,12 +43,6 @@ EV-Market-Performance-Insights/
 └── README.md
 
 
-Visit:
-
-http://127.0.0.1:5000
-
-Use the available buttons to open the Tableau Dashboard and Story.
-
 📈 Dashboard and Story
 
 The Tableau Dashboard provides interactive visualizations of EV market performance, while the Tableau Story presents important observations and key insights from the analysis.
